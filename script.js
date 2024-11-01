@@ -15,7 +15,7 @@ document.getElementById('monut').addEventListener('click', function() {
 function spinWheel() {
     const randomNum = Math.random();
     if (randomNum < 0.4) {
-        return "Chúc mừng! Bạn đã trúng thưởng!";
+        return "Chúc mừng! Bạn đã trúng thưởng 1 cốc trà chanh!";
     } else {
         return "Rất tiếc! Bạn đã hụt.";
     }
