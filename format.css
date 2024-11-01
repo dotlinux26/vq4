@@ -1,0 +1,97 @@
+body {
+    background-image: url('https://drive.google.com/uc?id=1exFdom4-VeVALqVHFyZ7g7a0g6d-DHhW'); /* hmm */
+    background-size: cover; /* Đảm bảo hình ảnh phủ kín toàn bộ nền */
+    background-position: center; /* Căn giữa hình ảnh */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0; /* Đảm bảo không có khoảng cách mặc định */
+}
+.framecanhtrai {
+    background-image: url('images/left.png'); /*link */
+    background-size: cover; /* bo kín */
+    background-position: center; /* căn */
+    width: 200px; /* rộng */
+    height: 300px; /* cao */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+
+    margin-right: 200px; /* cách nhau ra */
+}
+
+.framecanhphai {
+    background-image: url('images/right.png'); /*link */
+    background-size: cover; /* bo kín */
+    background-position: center; /* căn */
+    width: 200px; /* rộng */
+    height: 300px; /* cao */
+   
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    
+ 
+    margin-left: 200px; /* cách nhau ra */
+}
+.frameto {
+    width: 400px; /* rộng */
+    height: 600px; /* cao */
+    border: 10px solid #258def; /* viền */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* nền */
+    box-shadow: 0 0 10px rgba(16, 147, 255, 0.2); /* tí bóng cho ngầu*/
+}
+
+.framefit {
+    width: 400px; /* rộng */
+    height: 200px; /* cao */
+    background-image: url('images/fit.png'); /*link */
+    background-size: cover; /* bo kín */
+    background-position: top; /* căn */
+    display: flex;
+    justify-content: top;
+    align-items: top;  
+}
+
+.frameword {
+    width: 400px; /* rộng */
+    height: 80px; /* cao */
+    border: 10px solid #ef5b25; /* viền */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* nền */
+    box-shadow: 0 0 10px rgba(189, 194, 199, 0.2); /* tí bóng cho ngầu*/
+}
+
+h1 {
+    color: rgb(230, 1, 138); /* Text color */
+    text-shadow: 
+        -1px -1px 0 #ffffff,  
+        1px -1px 0 #41e9ec,
+        -1px 1px 0 #a490fb,
+        1px 1px 0 #8b80f4; /* Black outline */
+    font-size: 36px; /* Font size */
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
